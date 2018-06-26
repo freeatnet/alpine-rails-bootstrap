@@ -20,7 +20,8 @@ RUN apk add --no-cache --update build-base \
                                 git \
                                 postgresql-dev \
                                 nodejs \
-                                tzdata
+                                tzdata \
+                                yarn
 
 # All this to just to keep bundler from complaining about root user installs.
 RUN addgroup -S app && adduser -S -G app app
