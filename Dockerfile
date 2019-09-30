@@ -11,7 +11,7 @@
 FROM ruby:2.6.4-alpine
 LABEL maintainer="hello+alpine-rails@freeatnet.com"
 
-ENV RAILS_VERSION '~> 5.2.0'
+ENV RAILS_VERSION '~> 6.0.0'
 ENV WORKDIR /app
 
 # Minimal requirements to run a Rails app
