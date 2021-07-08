@@ -8,7 +8,7 @@
 # Other credits:
 # Package list reused from @pacuna, cf. https://github.com/pacuna/rails5-docker-alpine.
 
-FROM ruby:3.0.1-alpine
+FROM ruby:3.0.2-alpine
 LABEL maintainer="hello+alpine-rails@freeatnet.com"
 
 ENV RAILS_VERSION '~> 6.0.0'
